@@ -48,3 +48,25 @@ To extend the basic implementation you might consider:
 - **Validations:** add client‑side validation to the forms to ensure URLs are well‑formed or required fields are provided.
 
 Enjoy building your own version of Creatorverse!
+
+# Creatorverse
+
+A simple web app built with **React + Vite + Supabase** that lets users add, edit, and manage their favorite content creators.
+
+## Features
+- Add, edit, and delete creators
+- Store creator data using Supabase
+- Responsive grid layout styled with PicoCSS
+- Each creator card includes an image, name, description, and link
+
+## Tech Stack
+- React
+- Vite
+- Supabase
+- PicoCSS
+
+## Live Demo
+Run locally:
+```bash
+npm install
+npm run dev
